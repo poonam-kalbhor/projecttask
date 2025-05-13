@@ -883,7 +883,7 @@ function App() {
             <div className='text-[17px] md:text-[17px] leading-[30px] lg:w-[100%] xl:w-[80%] w-[100%] md:w-[60%] text-[#fff] font-medium'>
               We’re a team of expert chartered accountants and specialist advisors who share a common philosophy – our clients are our focus. Through one-on-one relationships, we actively work with you to deliver superior business solutions and strategic advice.
             </div>
-            <div className='py-[18px] px-[40px] rounded-[50px] bg-[#fff] inline-block text-[16px] font-bold text-[#007aff] mt-[45px]'>
+            <div className=' cursor-pointer py-[18px] px-[40px] rounded-[50px] bg-[#fff] inline-block text-[16px] font-bold text-[#007aff] mt-[45px]'>
               Get in touch
             </div>
           </div>
@@ -902,7 +902,7 @@ function App() {
             Stay Informed
           </div>
           <div className=' text-[20px] text-center text-[#fff]'>Stay updated with our tailored newsletters and alerts. Explore insights on accounting issues affecting your business and industries, along with firm updates. </div>
-          <div className='  py-[12px] px-[25px] rounded-[30px] border-[1px] border-[#ecf1f4] inline-block text-[#fff] font-semibold'>
+          <div className='  cursor-pointer py-[12px] px-[25px] rounded-[30px] border-[1px] border-[#ecf1f4] inline-block text-[#fff] font-semibold'>
             Subscribe
           </div>
         </div>
@@ -912,27 +912,27 @@ function App() {
             <div className='grid grid-cols-12 gap-[18px]  pb-[30px] border-b-[2px] border-[#4bb6fd] '>
               <div className='lg:col-span-3 col-span-12 lg:border-b-[0px] border-b-[2px] border-[#4bb6fd] lg:pb-[0px] pb-[40px]'>
 
-                <div className='lg:px-[20px] space-y-6'>
+                <div className='lg:px-[20px] space-y-6 '>
                   <div>
                     <img src={Logoicon} className="w-[100px] h-[40px]" />
                   </div>
-                  <div className='text-[12px] text-[#007aff] font-medium '>
+                  <div className='text-[12px] text-[#007aff] font-medium cursor-pointer'>
                     07 3023 1300
                   </div>
-                  <div className='text-[12px] text-[#007aff] font-medium'>
+                  <div className='text-[12px] text-[#007aff] font-medium cursor-pointer'>
                     <a>
                       Level 10, 1 Eagle Street Brisbane 4000 QLD Australia
                     </a>
                   </div>
                   <div className='flex gap-[10px]'>
                     <div>
-                      <img src={facebook} className="xl:w-[40px] w-[37px] xl:h-[32px] h-[25px]" />
+                      <img src={facebook} className="xl:w-[40px] w-[37px] xl:h-[32px] h-[25px] cursor-pointer" />
                     </div>
                     <div>
-                      <img src={LinkedIn} className="xl:w-[40px] w-[37px] xl:h-[32px] h-[25px]" />
+                      <img src={LinkedIn} className="xl:w-[40px] w-[37px] xl:h-[32px] h-[25px] cursor-pointer" />
                     </div>
                     <div>
-                      <img src={Insta} className="xl:w-[40px] w-[37px] xl:h-[32px] h-[25px]" />
+                      <img src={Insta} className="xl:w-[40px] w-[37px] xl:h-[32px] h-[25px] cursor-pointer" />
                     </div>
                   </div>
                 </div>
@@ -940,7 +940,7 @@ function App() {
               <div className='lg:col-span-9 col-span-12'>
                 <div className='grid md:grid-cols-4 grid-cols-2 pb-[20px]  '>
 
-                  <div className='sm:px-[20px] lg:px-[30px] xl:px-[40px] px-[10px] mt-[30px] font-medium space-y-5'>
+                  <div className='sm:px-[20px] lg:px-[30px] xl:px-[40px] px-[10px] mt-[30px] font-medium space-y-5 cursor-pointer'>
                     <div className='text-[#2f68eb] text-[14px]'>
                       Services
                     </div>
@@ -950,7 +950,7 @@ function App() {
                     <div className='text-[14px] text-[#0b0f66]'>Forensic</div>
                     <div className='text-[14px] text-[#0b0f66]'>Outsourced Support</div>
                   </div>
-                  <div className='sm:px-[20px] lg:px-[30px] xl:px-[40px] px-[10px] mt-[30px] font-medium space-y-5'>
+                  <div className='sm:px-[20px] lg:px-[30px] xl:px-[40px] px-[10px] mt-[30px] font-medium space-y-5 cursor-pointer'>
                     <div className='text-[#2f68eb] text-[14px]'>
                       Industries
                     </div>
@@ -961,17 +961,17 @@ function App() {
                     <div className='text-[14px] text-[#0b0f66]'>Retail and Franchises</div>
                     <div className='text-[14px] text-[#0b0f66]'>Technology</div>
                   </div>
-                  <div className='lg:px-[22px] xl:px-[30px] sm:px-[15px] px-[10px]  mt-[30px] font-medium space-y-5 lg:pt-[0px] pt-[12px]'>
-                    <div className='text-[#2f68eb] text-[14px]'>
+                  <div className='lg:px-[22px] xl:px-[30px] sm:px-[15px] px-[10px]  mt-[30px] font-medium space-y-5 lg:pt-[0px] pt-[12px] '>
+                    <div className='text-[#2f68eb] text-[14px] cursor-pointer'>
                       About Us
                     </div>
-                    <div className='text-[14px] text-[#0b0f66]'>Sustainability and Social Impact</div>
+                    <div className='text-[14px] text-[#0b0f66] cursor-pointer'>Sustainability and Social Impact</div>
                   </div>
-                  <div className=' lg:px-[20px] xl:px-[27px] sm:px-[6px] px-[10px] mt-[30px] font-medium space-y-5 lg:pt-[0px] pt-[12px]'>
-                    <div className='text-[#2f68eb] text-[14px]'>
+                  <div className=' lg:px-[20px] xl:px-[27px] sm:px-[6px] px-[10px] mt-[30px] font-medium space-y-5 lg:pt-[0px] pt-[12px] '>
+                    <div className='text-[#2f68eb] text-[14px] cursor-pointer'>
                       Careers
                     </div>
-                    <div className='text-[14px] text-[#0b0f66]'>What’s On Offer</div>
+                    <div className='text-[14px] text-[#0b0f66] cursor-pointer'>What’s On Offer</div>
                   </div>
                 </div>
 
@@ -989,30 +989,30 @@ function App() {
 
 
                   <div className=" xl:mt-5 flex flex-col md:flex-row md:flex-wrap md:justify-center xl:justify-start gap-4">
-                    <div className="text-[14px] md:text-[15px] lg:text-[16px] text-[#007aff]">
+                    <div className="text-[14px] md:text-[15px] lg:text-[16px] text-[#007aff] cursor-pointer">
                       Notification Statement
                     </div>
-                    <div className="text-[14px] md:text-[15px] lg:text-[16px] text-[#007aff]">
+                    <div className="text-[14px] md:text-[15px] lg:text-[16px] text-[#007aff] cursor-pointer">
                       Privacy
                     </div>
-                    <div className="text-[14px] md:text-[15px] lg:text-[16px] text-[#007aff]">
+                    <div className="text-[14px] md:text-[15px] lg:text-[16px] text-[#007aff] cursor-pointer">
                       Terms and Conditions
                     </div>
-                    <div className="text-[14px] md:text-[15px] lg:text-[16px] text-[#007aff]">
+                    <div className="text-[14px] md:text-[15px] lg:text-[16px] text-[#007aff] cursor-pointer">
                       Disclaimer
                     </div>
                   </div>
 
 
                   <div className="mt-2 xl:mt-0 flex flex-col items-start md:items-center xl:items-end text-left md:text-center xl:text-right">
-                    <div className="text-[14px] md:text-[15px] lg:text-[16px] text-[#007aff]">
+                    <div className="text-[14px] md:text-[15px] lg:text-[16px] text-[#007aff] cursor-pointer">
                       Liability limited by a scheme approved under Professional Standards Legislation.
                     </div>
                     <div className="flex justify-start md:justify-center xl:justify-end mt-1">
                       <div className="text-[14px] md:text-[15px] lg:text-[16px] text-[#393b3c] pr-1">
                         ©
                       </div>
-                      <div className="text-[14px] md:text-[15px] lg:text-[16px] text-[#007aff]">
+                      <div className="text-[14px] md:text-[15px] lg:text-[16px] text-[#007aff] cursor-pointer">
                         Copyright 2025 Pilot Partners
                       </div>
                     </div>
