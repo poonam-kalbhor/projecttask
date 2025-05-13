@@ -1,0 +1,678 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+
+body {
+  font-family: 'Nunito', sans-serif !important;
+  /* background-color: #f2f9fd !important; */
+}
+
+
+.slick-dots li button:before {
+  font-family: 'slick';
+  font-size: 13px !important;
+  line-height: 30px;
+  position: absolute;
+  margin: 10px !important;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  content: '•';
+  text-align: center;
+  opacity: 0.3;
+  color: black !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.team {
+    min-width: 230px;
+    width: 230px;
+    min-height: auto;
+    height: auto;
+    object-fit: cover;
+    border-radius: 0px 120px 0px 0px;
+}
+
+.slick-slider .slick-dots {
+  margin-top: 21px !important;   /* Force margin on all views */
+  position: relative !important; /* Ensure it's not absolutely placed */
+}
+
+.slick-dots li button:hover:before {
+  color: black !important;
+  opacity: 0.2 !important;
+ 
+}
+.slick-dots li {
+  margin: 0 10px !important;  /* Adjust spacing as needed */
+}
+
+
+
+.slick-dots li.slick-active button:before {
+  color: #007aff !important;
+  opacity: 1 !important;
+}
+.homepage {
+  top: 6.9rem;
+  position: relative;
+}
+
+.main-hero-banner {
+  display: flex;
+  background-color: rgb(18, 140, 255);
+  align-items: flex-end;
+  margin-bottom: 140px;
+  position: relative;
+}
+
+.left-main-banner-content{
+  width: 100% !important;
+  height: fit-content;
+  padding: 13vw 13vw 30vw 13vw;
+}
+
+.main-banner-heading {
+  margin: 0px 0px 35px;
+}
+
+.main-banner-heading h1 {
+  margin: 0px;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 80px;
+  line-height: 88px;
+  color: rgb(255, 255, 255);
+}
+
+.main-banner-text {
+  margin: 0px 0px 35px;
+  max-width: 260px;
+}
+
+.main-banner-text p {
+  margin: 18px 0;
+ 
+  line-height: 28px;
+  color: rgb(255, 255, 255);
+}
+
+.main-banner-button {
+  border-radius: 100vw;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 126, 240) !important;
+  font-size: 16px;
+  padding: 24px 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+  width: fit-content;
+  overflow: hidden;
+  cursor: pointer;
+  transition: all 0.2s ease 0s;
+  font-weight: 600;
+  line-height: 1;
+}
+
+
+.right-banner-image {
+  margin-bottom: -140px !important;
+display: flex;
+}
+
+.banner-left-round-img {
+  position: relative;
+  height: 862px;
+  min-height: 862px;
+  max-height: 862px;
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  /* border-radius: 500px 0px 0px; */
+  overflow: hidden;
+}
+
+.banner-left-round-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: right;
+}
+
+.banner-left-round-img svg {
+  width: 100%;
+  height: 100%;
+  stroke: rgba(255, 255, 255, 0.2);
+  position: absolute;
+  left: 0%;
+  top: 15%;
+  bottom: auto;
+  transform: scale(1.35);
+}
+
+/* @media (max-width: 1800px) {
+  .main-banner-heading h1 {
+      font-size: 74px;
+      line-height: 1.2;
+  }
+}
+
+@media (max-width: 1678px) {
+  .banner-left-round-img {
+      height: 660px;
+      min-height: 660px;
+      max-height: 660px;
+      border-radius: 450px 0px 0px;
+  }
+}
+
+@media (max-width: 1676px) {
+  
+
+  .main-banner-heading {
+      margin-bottom: 26px;
+  }
+
+  .main-banner-heading h1 {
+      font-size: 64px;
+      line-height: 1.2;
+  }
+
+  .main-banner-text {
+      max-width: 450px;
+  }
+
+  .main-banner-text p {
+      font-size: 18px;
+      line-height: 1.5;
+      padding-right: 0px;
+  }
+}
+
+@media (max-width: 1399.5px) {
+  .main-hero-banner {
+      margin-top: 90px;
+      margin-bottom: 50px;
+  }
+
+}
+
+
+@media (max-width: 1399px) {
+  .topbanner-home {
+      top: 5.7rem;
+  }
+  #home-banner{
+      top: 0;
+  }
+}
+
+
+@media (max-width: 1199px) {
+  .main-banner-heading h1 {
+      font-size: 48px;
+      line-height: 58px;
+  }
+}
+
+@media (max-width: 1442px) {
+  .banner-left-round-img {
+      border-radius: 400px 0px 0px;
+  }
+}
+
+@media (max-width: 1400px) {
+
+  .right-banner-image {
+      width: 60%;
+      margin-bottom: -50px;
+  }
+
+  .banner-left-round-img {
+      height: 560px;
+      min-height: 560px;
+      max-height: 560px;
+      border-radius: 350px 0px 0px;
+  }
+
+  .banner-left-round-img svg {
+      transform: none;
+  }
+}
+
+@media (max-width: 1024px) {
+ 
+}
+
+@media (max-width: 991px) {
+  .main-hero-banner {
+      margin-bottom: 80px;
+      flex-flow: column;
+      align-items: flex-end;
+  }
+
+ 
+
+  .right-banner-image {
+      margin-bottom: -80px;
+      margin-top: -120px;
+      width: 50%;
+  }
+
+  .banner-left-round-img {
+
+      height: 300px;
+      min-height: 300px;
+      max-height: 300px;
+      border-radius: 200px 0px 0px;
+  }
+}
+
+@media (max-width: 576px) {
+  .main-hero-banner {
+      margin-bottom: 140px;
+  }
+
+  .right-banner-image {
+      margin-bottom: -140px;
+      margin-top: 10px;
+      width: 70%;
+  }
+
+  .banner-left-round-img {
+      height: 67vw;
+      min-height: 67vw;
+      max-height: 67vw;
+      width: 72vw;
+      min-width: 72vw;
+      max-width: 72vw;
+      border-radius: 40vw 0px 0px;
+  }
+}
+
+@media (max-width: 768px) {
+  .main-banner-text {
+      margin: 0px 0px 47px;
+  }
+
+  .main-banner-text p {
+      font-size: 14px;
+      line-height: 25px;
+      padding-right: 0px;
+  }
+}
+@media only screen and (min-width: 1399px) {
+ #home-banner{
+      top: 0;
+  }
+}
+@media only screen and (min-width: 1400px) {
+ #home-banner{
+      top: 6.9rem;
+  }
+} */
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.businessobjectives-home .container-fluid {
+  margin-top: 112px;
+}
+
+
+
+.banner-left-round-img {
+  height: 220px;
+  min-height: 220px;
+  max-height: 220px;
+  border-radius: 130px 0px 0px;
+}
+
+@media (min-width: 400px) {
+  .main-banner-text {
+    margin: 0px 0px 35px;
+    max-width: 380px;
+    max-width: 380px;
+  }
+  
+  .left-main-banner-content{
+    width: 96%;
+    height: fit-content;
+    padding: 48px 48px 100px 48px;
+  }
+  .banner-left-round-img {
+    height: 300px;
+    min-height: 300px;
+    max-height: 300px;
+    border-radius: 180px 0px 0px;
+}
+.left-main-banner-content{
+  width: 100% !important;
+  height: fit-content;
+  padding: 13vw 13vw 36vw 13vw;
+}
+.team {
+    min-width: 280px;
+    width: 280px;
+    min-height: auto;
+    height: auto;
+    object-fit: cover;
+    border-radius: 0px 130px 0px 0px;
+}
+}
+@media (min-width: 575px) {
+  .main-banner-text {
+    margin: 0px 0px 35px;
+    max-width: 450px;
+  }
+ 
+  .slick-slider .slick-dots {
+  margin-top: 20px !important;   /* Force margin on all views */
+  position: relative !important; /* Ensure it's not absolutely placed */
+} 
+
+  .left-main-banner-content{
+    width: 96%;
+    height: fit-content;
+    padding: 48px 48px 100px 48px;
+  }
+  .banner-left-round-img {
+    height: 350px;
+    min-height: 350px;
+    max-height: 350px;
+    border-radius: 220px 0px 0px;
+}
+.left-main-banner-content{
+  width: 100% !important;
+  height: fit-content;
+  padding: 13vw 0vw 36vw 13vw;
+}
+}
+@media (min-width: 640px) {
+
+  .banner-left-round-img {
+    height: 320px;
+    min-height: 320px;
+    max-height: 320px;
+    border-radius: 200px 0px 0px;
+}
+.left-main-banner-content{
+  width: 96%;
+  height: fit-content;
+  padding: 48px 48px 100px 48px;
+}
+.left-main-banner-content{
+  width: 96%;
+  height: fit-content;
+  padding: 48px 48px 100px 48px;
+}
+.main-banner-text {
+  margin: 0px 0px 35px;
+  max-width: 430px;
+}
+.team {
+    min-width: 400px;
+    width: 400px;
+    min-height: auto;
+    height: auto;
+    object-fit: cover;
+    border-radius: 0px 250px 0px 0px;
+}
+
+}
+@media (min-width: 768px) {
+  .left-main-banner-content {
+    width: 70%;
+    padding: 48px 48px 0px;
+}
+.main-banner-text {
+  margin: 0px 0px 47px;
+}
+
+
+  .banner-left-round-img {
+    height: 310px;
+    min-height: 310px;
+    max-height: 310px;
+    border-radius: 210px 0px 0px;
+}
+
+.main-banner-text {
+  margin: 0px 0px 35px;
+  max-width: 400px;
+}
+.left-main-banner-content {
+  padding: 80px 24px 95px 48px;
+}
+.team {
+    min-width: 600px;
+    width: 600px;
+    min-height: auto;
+    height: auto;
+    object-fit: cover;
+    border-radius: 0px 250px 0px 0px;
+}
+}
+
+@media (min-width: 1024px) {
+  .left-main-banner-content{
+    width: 50%;
+    height: fit-content;
+    padding: 8vw 0vw 0vw 4vw;
+  }
+  .right-banner-image {
+    width: 60%;
+    margin-bottom: -50px;
+}
+.banner-left-round-img {
+  height: 560px;
+  min-height: 560px;
+  max-height: 560px;
+  border-radius: 350px 0px 0px;
+}
+.right-banner-image {
+  width: 60%;
+  margin-bottom: -50px;
+}
+.banner-left-round-img {
+  height: 500px;
+  min-height: 500px;
+  max-height: 500px;
+  border-radius: 350px px 0px !important;
+} 
+.left-main-banner-content {
+  padding: 100px 24px 80px 48px;
+}
+.main-banner-text p {
+  font-weight: 600;
+
+ 
+}
+.team {
+    min-width: 520px;
+    width: 520px;
+    min-height: auto;
+    height: auto;
+    object-fit: cover;
+    border-radius: 0px 250px 0px 0px;
+}
+}
+@media (min-width: 1280px) {
+  .left-main-banner-content{
+    width: 50%;
+    height: fit-content;
+    padding: 12vw 0vw 0vw 4vw;
+  }
+  .banner-left-round-img {
+    height: 550px;
+    min-height: 550px;
+    max-height: 550px;
+    border-radius: 350px 0px 0px;
+  } 
+  .left-main-banner-content {
+    padding: 100px 24px 70px 48px;
+}
+.team {
+    min-width: 600px;
+    width: 600px;
+    min-height: auto;
+    height: auto;
+    object-fit: cover;
+    border-radius: 0px 250px 0px 0px;
+}
+  
+}
+@media (min-width: 1536px) {
+  .left-main-banner-content{
+    width: 50%;
+    height: fit-content;
+    padding: 12vw 0vw 0vw 4vw;
+  }
+
+  .banner-left-round-img {
+    height: 630px;
+    min-height: 630px;
+    max-height: 630px;
+    border-radius: 400px 0px 0px;
+}
+.left-main-banner-content {
+  padding: 100px 24px 100px 48px;
+}
+.team {
+    min-width: 700px;
+    width: 700px;
+    min-height: auto;
+    height: auto;
+    object-fit: cover;
+    border-radius: 0px 250px 0px 0px;
+}
+  
+}
+
+@media (min-width: 1700px) {
+  .left-main-banner-content{
+    width: 50%;
+    height: fit-content;
+    padding: 12vw 0vw 0vw 4vw;
+  }
+
+  .banner-left-round-img {
+    height: 630px;
+    min-height: 630px;
+    max-height: 630px;
+    border-radius: 400px 0px 0px;
+}
+.left-main-banner-content {
+  padding: 100px 24px 100px 48px;
+}
+.team {
+    min-width: 840px;
+    width: 840px;
+    min-height: auto;
+    height: auto;
+    object-fit: cover;
+    border-radius: 0px 250px 0px 0px;
+}
+  
+} 
+
+@media (min-width: 1920px) {
+  .customnav{
+    padding: 2vw 10vw;
+  }
+.main-banner-text {
+  margin: 0px 0px 35px;
+  max-width: 490px;
+}
+
+
+  .left-main-banner-content{
+    width: 50% !important;
+    height: fit-content;
+    padding: 12vw 0vw 10vw 10vw;
+  }
+  .banner-left-round-img {
+    position: relative;
+    height: 862px;
+    min-height: 862px;
+    max-height: 862px;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    border-radius: 500px 0px 0px;
+    overflow: hidden;
+  }
+  .team {
+    min-width: 840px;
+    width: 840px;
+    min-height: auto;
+    height: auto;
+    object-fit: cover;
+    border-radius: 0px 250px 0px 0px;
+}
+  
+}
+
+.menu-item {
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+/* When you hover one .menu-item, the very next .menu-item gets these */
+.menu-item:hover + .menu-item {
+  transform: scale(1.1) translateY(0.5rem);
+  background-color: #e0f0ff;  /* match your hover-bg */
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.blinking {
+  animation: blink 0.5s ease-in-out;
+}
