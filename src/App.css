@@ -35,7 +35,7 @@
 
 body {
   font-family: 'Nunito', sans-serif !important;
-  /* background-color: #f2f9fd !important; */
+ 
 }
 
 
@@ -65,8 +65,8 @@ body {
 }
 
 .slick-slider .slick-dots {
-  margin-top: 21px !important;   /* Force margin on all views */
-  position: relative !important; /* Ensure it's not absolutely placed */
+  margin-top: 21px !important;   
+  position: relative !important; 
 }
 
 .slick-dots li button:hover:before {
@@ -75,7 +75,7 @@ body {
  
 }
 .slick-dots li {
-  margin: 0 10px !important;  /* Adjust spacing as needed */
+  margin: 0 10px !important;  
 }
 
 
@@ -182,168 +182,6 @@ display: flex;
   transform: scale(1.35);
 }
 
-/* @media (max-width: 1800px) {
-  .main-banner-heading h1 {
-      font-size: 74px;
-      line-height: 1.2;
-  }
-}
-
-@media (max-width: 1678px) {
-  .banner-left-round-img {
-      height: 660px;
-      min-height: 660px;
-      max-height: 660px;
-      border-radius: 450px 0px 0px;
-  }
-}
-
-@media (max-width: 1676px) {
-  
-
-  .main-banner-heading {
-      margin-bottom: 26px;
-  }
-
-  .main-banner-heading h1 {
-      font-size: 64px;
-      line-height: 1.2;
-  }
-
-  .main-banner-text {
-      max-width: 450px;
-  }
-
-  .main-banner-text p {
-      font-size: 18px;
-      line-height: 1.5;
-      padding-right: 0px;
-  }
-}
-
-@media (max-width: 1399.5px) {
-  .main-hero-banner {
-      margin-top: 90px;
-      margin-bottom: 50px;
-  }
-
-}
-
-
-@media (max-width: 1399px) {
-  .topbanner-home {
-      top: 5.7rem;
-  }
-  #home-banner{
-      top: 0;
-  }
-}
-
-
-@media (max-width: 1199px) {
-  .main-banner-heading h1 {
-      font-size: 48px;
-      line-height: 58px;
-  }
-}
-
-@media (max-width: 1442px) {
-  .banner-left-round-img {
-      border-radius: 400px 0px 0px;
-  }
-}
-
-@media (max-width: 1400px) {
-
-  .right-banner-image {
-      width: 60%;
-      margin-bottom: -50px;
-  }
-
-  .banner-left-round-img {
-      height: 560px;
-      min-height: 560px;
-      max-height: 560px;
-      border-radius: 350px 0px 0px;
-  }
-
-  .banner-left-round-img svg {
-      transform: none;
-  }
-}
-
-@media (max-width: 1024px) {
- 
-}
-
-@media (max-width: 991px) {
-  .main-hero-banner {
-      margin-bottom: 80px;
-      flex-flow: column;
-      align-items: flex-end;
-  }
-
- 
-
-  .right-banner-image {
-      margin-bottom: -80px;
-      margin-top: -120px;
-      width: 50%;
-  }
-
-  .banner-left-round-img {
-
-      height: 300px;
-      min-height: 300px;
-      max-height: 300px;
-      border-radius: 200px 0px 0px;
-  }
-}
-
-@media (max-width: 576px) {
-  .main-hero-banner {
-      margin-bottom: 140px;
-  }
-
-  .right-banner-image {
-      margin-bottom: -140px;
-      margin-top: 10px;
-      width: 70%;
-  }
-
-  .banner-left-round-img {
-      height: 67vw;
-      min-height: 67vw;
-      max-height: 67vw;
-      width: 72vw;
-      min-width: 72vw;
-      max-width: 72vw;
-      border-radius: 40vw 0px 0px;
-  }
-}
-
-@media (max-width: 768px) {
-  .main-banner-text {
-      margin: 0px 0px 47px;
-  }
-
-  .main-banner-text p {
-      font-size: 14px;
-      line-height: 25px;
-      padding-right: 0px;
-  }
-}
-@media only screen and (min-width: 1399px) {
- #home-banner{
-      top: 0;
-  }
-}
-@media only screen and (min-width: 1400px) {
- #home-banner{
-      top: 6.9rem;
-  }
-} */
-
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -405,8 +243,8 @@ display: flex;
   }
  
   .slick-slider .slick-dots {
-  margin-top: 20px !important;   /* Force margin on all views */
-  position: relative !important; /* Ensure it's not absolutely placed */
+  margin-top: 20px !important;   
+  position: relative !important; 
 } 
 
   .left-main-banner-content{
@@ -655,10 +493,10 @@ display: flex;
   transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
-/* When you hover one .menu-item, the very next .menu-item gets these */
+
 .menu-item:hover + .menu-item {
   transform: scale(1.1) translateY(0.5rem);
-  background-color: #e0f0ff;  /* match your hover-bg */
+  background-color: #e0f0ff;  
 }
 
 @keyframes blink {
